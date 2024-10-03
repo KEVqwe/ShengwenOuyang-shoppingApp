@@ -15,7 +15,6 @@ import androidx.compose.ui.unit.dp
 import com.example.shengwenouyang_shoppingapp.ui.theme.ShengwenOuyangshoppingAppTheme
 import androidx.compose.ui.platform.LocalConfiguration
 
-
 data class Product(val name: String, val price: String, val description: String)
 
 val products = listOf(
@@ -95,7 +94,6 @@ fun isInLandscape(): Boolean {
     val configuration = LocalConfiguration.current
     return configuration.orientation == Configuration.ORIENTATION_LANDSCAPE
 }
-
 
 @Preview(showBackground = true)
 @Composable
